@@ -1,3 +1,6 @@
+// OverTheWire Bandit Level 24 solution written in C
+// 1/10/2021
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/socket.h>

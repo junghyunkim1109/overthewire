@@ -1,1 +1,2 @@
-Folder for solutions to Bandit category
+# OverTheWire Bandit wargames
+This folder contains solutions to the Bandit wargames on OverTheWire.org

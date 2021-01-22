@@ -17,8 +17,12 @@ login = ('natas4', 'Z9tkRkWmpt9Qr7XrR5jWRkgOU901swEZ')
 referrer = {'Referer': 'http://natas5.natas.labs.overthewire.org/'}
 
 
-# Create a session
-s = requests.Session()
+# If a session was to be used: 
+#   s = requests.Session()
+#   s.auth = login
+#   s.headers.update(referrer)
+#   resp = s.get(url)
+
 
 # Connect the session to the url, using the auth and referrer header
 x = requests.get(url, auth=login, headers=referrer);
